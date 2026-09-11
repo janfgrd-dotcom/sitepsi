@@ -2,3 +2,7 @@
 .instagram-posts{display:flex;gap:28px;margin-top:48px;overflow-x:auto;padding:0 0 14px;scroll-snap-type:x mandatory}.instagram-post{flex:0 0 360px;width:360px;height:330px;border:0;background:#fff;scroll-snap-align:start}@media(max-width:680px){.instagram-post{flex-basis:300px;width:300px;height:300px}}
 
 .care-subtitle{margin:22px 0 0;max-width:620px;font-size:17px;color:#514d4a}.care-copy{max-width:780px;margin-top:48px;color:#514d4a}.care-copy p{margin:0 0 20px}.care-copy strong{color:var(--ink);font-weight:600}.care-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:42px;margin-top:58px;padding-top:30px;border-top:1px solid var(--line)}.care-options h3{font-size:27px;margin:0 0 18px}.care-options ul{list-style:none;padding:0;margin:0}.care-options li{padding:10px 0;border-bottom:1px solid var(--line);font-size:14px;color:#514d4a}.care-options li::before{content:"—";color:var(--wine);margin-right:10px}@media(max-width:680px){.care-subtitle{font-size:15px}.care-copy{margin-top:36px}.care-options{grid-template-columns:1fr;gap:34px;margin-top:40px}}
+
+/* Ajuste de espaçamento da seção de atendimento */
+.care-copy{margin-top:28px}
+@media(max-width:680px){.care-copy{margin-top:24px}}

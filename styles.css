@@ -45,3 +45,28 @@
     margin-left: 0;
   }
 }
+
+
+/* Compacta a visualização desktop em telas estreitas, como o modo computador do celular */
+@media (min-width: 951px) and (max-width: 1150px) {
+  .hero {
+    min-height: auto;
+    padding: 58px 6vw 64px;
+    gap: 5vw;
+  }
+  .hero-note {
+    bottom: 22px;
+    right: 6vw;
+  }
+  .site-header {
+    height: 76px;
+  }
+  nav {
+    gap: 14px;
+    font-size: 12px;
+  }
+  .button-small {
+    padding: 10px 12px;
+    font-size: 9px;
+  }
+}

@@ -15,3 +15,33 @@
 .care-card p:not(.eyebrow){margin:0;color:#514d4a;max-width:330px}
 .care-card span{margin-top:auto;padding-top:25px;color:var(--wine);font-size:11px;text-transform:uppercase;letter-spacing:1.1px;font-weight:600}
 @media(max-width:680px){.care-cards{grid-template-columns:1fr;margin-top:32px}.care-card{min-height:220px;padding:28px}.care-card h3{font-size:27px}}
+
+
+/* Ajustes de proporção para a visualização desktop */
+@media (min-width: 951px) {
+  .hero {
+    min-height: clamp(620px, calc(100svh - 82px), 820px);
+    padding: clamp(64px, 7vw, 100px) clamp(32px, 7vw, 110px) 70px;
+    gap: clamp(40px, 6vw, 90px);
+  }
+}
+
+/* Cabeçalho mais equilibrado em telas desktop menores */
+@media (min-width: 951px) and (max-width: 1150px) {
+  .site-header {
+    padding: 0 24px;
+    gap: 14px;
+  }
+  .credential {
+    display: none;
+  }
+  nav {
+    gap: 13px;
+    font-size: 11px;
+  }
+  .button-small {
+    padding: 10px 12px;
+    font-size: 8px;
+    margin-left: 0;
+  }
+}
